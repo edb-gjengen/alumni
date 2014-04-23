@@ -6,7 +6,7 @@ $(function() {
     $('form').on('submit', function() {
         event.preventDefault();
         $.post(
-            'http://misund.at.neuf.no/alumni/async.php',
+            'http://alumni.studentersamfundet.no/async.php',
             {
                 name: $('#name').val(),
                 email: $('#email').val(),

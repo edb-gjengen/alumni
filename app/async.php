@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$db   = 'misund_alumni';
-$user = 'misund_alumni';
+$db   = 'prod_alumni'; // macgyver: 'misund_alumni';
+$user = 'prod_alumni'; // macgyver: 'misund_alumni';
 $pass = '39Ax4tEsm958K6Ke';
 
 $link = mysqli_connect( $host , $user , $pass , $db );
