@@ -1,0 +1,66 @@
+// bower:scss
+// endbower
+
+@import
+    "foundation-settings",
+    "foundation";
+
+body {
+    background-color: #000;
+    background-image:url('../images/konsert.jpg');
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:24px;
+    line-height:1.5;
+    color: #333;
+}
+
+.eye-catcher {
+    margin-top:7rem;
+}
+
+.interest {
+    @include grid-row();
+    background:rgba(255,255,255,0.55);
+    border-radius:0.6rem;
+
+    .intro,
+    .sign-up {
+	@include grid-column(6);
+    }
+
+    .intro {
+	font-size:1.2rem;
+
+	h1 {
+	    margin-bottom:0;
+	}
+
+	h1 + p {
+	    display:inline;
+	    font-size:1.25rem;
+	}
+    }
+
+    .sign-up {
+	font-size:1.5rem;
+	position:relative;
+
+	input {
+	    font-size:1.5rem;
+	    padding:0.3rem;
+	    border-radius:0.4rem;
+	    border:0 none;
+	}
+    }
+}
+
+footer {
+    color:rgba(255,255,255,0.65);
+    font-size:1rem;
+    position:fixed;
+    bottom:0;
+    right:0;
+    text-align:right;
+}
