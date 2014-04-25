@@ -56,6 +56,27 @@ body {
     }
 }
 
+#site-topbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #e99835;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 2;
+
+    .topbar-logo {
+	background: url(https://viteboka.studentersamfundet.no/w/skins/viteboka/images/dns-topbar.png?2013-09-16T12:51:40Z) no-repeat;
+	display: inline-block;
+	width: 271px;
+	height: 100%;
+	margin-top: 4px;
+	text-indent: -9999px;
+    }
+}
+
 footer {
     color:rgba(255,255,255,0.65);
     font-size:1rem;
